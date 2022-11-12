@@ -1,0 +1,20 @@
+{
+  "Name": "BasicTemplateTarget",
+  "Platform": "UWP",
+  "Architecture": "x64",
+  "Configuration": "Release",
+  "HotReloadPostfix": "",
+  "BinaryModules": [
+    {
+      "Name": "BasicTemplate",
+      "NativePath": "",
+      "ManagedPath": "$(ProjectPath)/Binaries/BasicTemplateTarget/UWP/x64/Release/BasicTemplate.CSharp.dll"
+    }
+  ],
+  "References": [
+    {
+      "ProjectPath": "$(EnginePath)/Flax.flaxproj",
+      "Path": "$(EnginePath)/Source/Platforms/UWP/Binaries/Game/x64/Release/FlaxGame.Build.json"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "Name": "BasicTemplateEditorTarget",
+  "Platform": "Windows",
+  "Architecture": "x64",
+  "Configuration": "Development",
+  "HotReloadPostfix": "",
+  "BinaryModules": [
+    {
+      "Name": "BasicTemplate",
+      "NativePath": "",
+      "ManagedPath": "$(ProjectPath)/Binaries/BasicTemplateEditorTarget/Windows/x64/Development/BasicTemplate.CSharp.dll"
+    }
+  ],
+  "References": [
+    {
+      "ProjectPath": "$(EnginePath)/Flax.flaxproj",
+      "Path": "$(EnginePath)/Binaries/Editor/Win64/Development/FlaxEditor.Build.json"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"Name":"BasicTemplateTarget","Platform":"UWP","Configuration":"Release","BinaryModules":[{"Name":"FlaxEngine","NativePath":"FlaxEngine.dll","ManagedPath":"FlaxEngine.CSharp.dll"},{"Name":"BasicTemplate","ManagedPath":"BasicTemplate.CSharp.dll"}]}
